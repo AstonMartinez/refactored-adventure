@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940EFF032B2BC6280048D7BE /* vapor_tutorial_ios_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EFF022B2BC6280048D7BE /* vapor_tutorial_ios_appApp.swift */; };
+		940EFF052B2BC6280048D7BE /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EFF042B2BC6280048D7BE /* SongList.swift */; };
+		940EFF072B2BC62B0048D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940EFF062B2BC62B0048D7BE /* Assets.xcassets */; };
+		940EFF0A2B2BC62B0048D7BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940EFF092B2BC62B0048D7BE /* Preview Assets.xcassets */; };
+		940EFF152B2BC7FD0048D7BE /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EFF142B2BC7FD0048D7BE /* Song.swift */; };
+		940EFF172B2BC8C60048D7BE /* SongListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EFF162B2BC8C60048D7BE /* SongListViewModel.swift */; };
+		940EFF192B2BCD250048D7BE /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EFF182B2BCD250048D7BE /* HttpClient.swift */; };
+		940EFF1B2B2BD0640048D7BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940EFF1A2B2BD0640048D7BE /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		940EFEFF2B2BC6280048D7BE /* vapor-tutorial-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vapor-tutorial-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940EFF022B2BC6280048D7BE /* vapor_tutorial_ios_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vapor_tutorial_ios_appApp.swift; sourceTree = "<group>"; };
+		940EFF042B2BC6280048D7BE /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		940EFF062B2BC62B0048D7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940EFF092B2BC62B0048D7BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		940EFF142B2BC7FD0048D7BE /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		940EFF162B2BC8C60048D7BE /* SongListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListViewModel.swift; sourceTree = "<group>"; };
+		940EFF182B2BCD250048D7BE /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		940EFF1A2B2BD0640048D7BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940EFEFC2B2BC6280048D7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940EFEF62B2BC6280048D7BE = {
+			isa = PBXGroup;
+			children = (
+				940EFF012B2BC6280048D7BE /* vapor-tutorial-ios-app */,
+				940EFF002B2BC6280048D7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940EFF002B2BC6280048D7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940EFEFF2B2BC6280048D7BE /* vapor-tutorial-ios-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940EFF012B2BC6280048D7BE /* vapor-tutorial-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				940EFF132B2BC6D70048D7BE /* Utilities */,
+				940EFF122B2BC6BF0048D7BE /* Views */,
+				940EFF112B2BC6A60048D7BE /* Models */,
+				940EFF102B2BC6650048D7BE /* View Models */,
+				940EFF022B2BC6280048D7BE /* vapor_tutorial_ios_appApp.swift */,
+				940EFF062B2BC62B0048D7BE /* Assets.xcassets */,
+				940EFF082B2BC62B0048D7BE /* Preview Content */,
+			);
+			path = "vapor-tutorial-ios-app";
+			sourceTree = "<group>";
+		};
+		940EFF082B2BC62B0048D7BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				940EFF092B2BC62B0048D7BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		940EFF102B2BC6650048D7BE /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				940EFF162B2BC8C60048D7BE /* SongListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		940EFF112B2BC6A60048D7BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				940EFF142B2BC7FD0048D7BE /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		940EFF122B2BC6BF0048D7BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				940EFF042B2BC6280048D7BE /* SongList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		940EFF132B2BC6D70048D7BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				940EFF182B2BCD250048D7BE /* HttpClient.swift */,
+				940EFF1A2B2BD0640048D7BE /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940EFEFE2B2BC6280048D7BE /* vapor-tutorial-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940EFF0D2B2BC62B0048D7BE /* Build configuration list for PBXNativeTarget "vapor-tutorial-ios-app" */;
+			buildPhases = (
+				940EFEFB2B2BC6280048D7BE /* Sources */,
+				940EFEFC2B2BC6280048D7BE /* Frameworks */,
+				940EFEFD2B2BC6280048D7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vapor-tutorial-ios-app";
+			productName = "vapor-tutorial-ios-app";
+			productReference = 940EFEFF2B2BC6280048D7BE /* vapor-tutorial-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940EFEF72B2BC6280048D7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					940EFEFE2B2BC6280048D7BE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 940EFEFA2B2BC6280048D7BE /* Build configuration list for PBXProject "vapor-tutorial-ios-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940EFEF62B2BC6280048D7BE;
+			productRefGroup = 940EFF002B2BC6280048D7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940EFEFE2B2BC6280048D7BE /* vapor-tutorial-ios-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940EFEFD2B2BC6280048D7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940EFF0A2B2BC62B0048D7BE /* Preview Assets.xcassets in Resources */,
+				940EFF072B2BC62B0048D7BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940EFEFB2B2BC6280048D7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940EFF192B2BCD250048D7BE /* HttpClient.swift in Sources */,
+				940EFF152B2BC7FD0048D7BE /* Song.swift in Sources */,
+				940EFF172B2BC8C60048D7BE /* SongListViewModel.swift in Sources */,
+				940EFF052B2BC6280048D7BE /* SongList.swift in Sources */,
+				940EFF032B2BC6280048D7BE /* vapor_tutorial_ios_appApp.swift in Sources */,
+				940EFF1B2B2BD0640048D7BE /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		940EFF0B2B2BC62B0048D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		940EFF0C2B2BC62B0048D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940EFF0E2B2BC62B0048D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vapor-tutorial-ios-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astom.vapor-tutorial-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		940EFF0F2B2BC62B0048D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vapor-tutorial-ios-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "astom.vapor-tutorial-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940EFEFA2B2BC6280048D7BE /* Build configuration list for PBXProject "vapor-tutorial-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940EFF0B2B2BC62B0048D7BE /* Debug */,
+				940EFF0C2B2BC62B0048D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940EFF0D2B2BC62B0048D7BE /* Build configuration list for PBXNativeTarget "vapor-tutorial-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940EFF0E2B2BC62B0048D7BE /* Debug */,
+				940EFF0F2B2BC62B0048D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940EFEF72B2BC6280048D7BE /* Project object */;
+}
